@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+	    <pattern>any pizza served</pattern>
+	    <template>
+	        <card>
+	            <image>http://webmeup.com/upload/blog/lead-image-105.png</image>
+	            <title>summa</title>
+	            <subtitle>yes</subtitle>
+	            <button>
+	                <text>click on it</text>
+	                <postback>ok</postback>
+                </button>
+            </card>
+	    </template>
+    </category>
+</aiml>

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{/css/chatbot.css}" rel="stylesheet" />
+    <script type="text/javascript" th:src="@{/js/chatbot.js}"></script>
+</head>
+<body>
+    <div th:remove="tag" th:utext="${chatresponse}"></div>
+    <form action="/receive", method="POST">
+        <p th:text="'Hello, ' + ${name} + '! I am chatbot'" />
+        <input type="text" name="chat" placeholder="Enter a message..."/>
+    </form>
+</body>
+</html>

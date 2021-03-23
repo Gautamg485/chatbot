@@ -1,0 +1,5 @@
+com/example/servingwebcontent/ServingWebContentApplication.class
+com/example/servingwebcontent/Controller/GreetingController.class
+com/example/servingwebcontent/Controller/BotController.class
+com/example/servingwebcontent/Model/Chat.class
+com/example/servingwebcontent/Controller/ChatbotController.class
